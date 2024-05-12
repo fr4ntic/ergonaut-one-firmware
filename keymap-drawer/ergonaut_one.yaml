@@ -37,8 +37,8 @@ layers:
   - /
   - ''
   - {t: raise, h: toggle}
-  - ␣
-  - {t: lower, h: toggle}
+  - ''
+  - {t: ␣, h: lower}
   - ''
   - ''
   - ''
@@ -81,7 +81,7 @@ layers:
   - End
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,7 +167,7 @@ layers:
   - Reset
   - {t: ▽, type: trans}
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
