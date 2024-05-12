@@ -36,7 +36,7 @@ layers:
   - .
   - /
   - ''
-  - {t: raise, h: toggle}
+  - {t: Pause Break, h: raise}
   - ''
   - {t: ␣, h: lower}
   - ''
@@ -122,7 +122,7 @@ layers:
   - Page Down
   - Pause Break
   - Alt
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,7 +165,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - {type: held}
   - ''
