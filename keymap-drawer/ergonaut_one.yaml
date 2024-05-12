@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: Gui}
+  - ↹
   - Q
   - W
   - E
@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - '['
-  - {t: '`', h: Ctrl}
+  - BACKSPACE
+  - ''
   - A
   - S
   - D
@@ -22,9 +22,9 @@ layers:
   - J
   - K
   - L
-  - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - ''''
+  - ⏎
+  - ''
   - Z
   - X
   - C
@@ -35,39 +35,15 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - ''
+  - {t: raise, h: toggle}
+  - ␣
+  - {t: lower, h: toggle}
+  - ''
+  - ''
+  - ''
   lower:
   - {t: F1, h: Gui}
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - {t: +, h: Ctrl}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
   - '1'
   - '2'
   - '3'
@@ -78,10 +54,34 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Alt
+  - DELETE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - (
+  - )
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - End
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,7 +122,7 @@ layers:
   - Page Down
   - Pause Break
   - Alt
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,9 +165,9 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
