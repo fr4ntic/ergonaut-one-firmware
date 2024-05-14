@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - LEFT SHIFT
+  - LEFT CONTROL
   - A
   - S
   - D
@@ -24,7 +24,7 @@ layers:
   - L
   - ''''
   - ⏎
-  - LEFT CONTROL
+  - LEFT SHIFT
   - Z
   - X
   - {t: C, h: Ctrl}
@@ -54,7 +54,7 @@ layers:
   - '9'
   - End
   - End
-  - End
+  - DELETE
   - End
   - End
   - End
