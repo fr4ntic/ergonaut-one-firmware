@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - ''
+  - LEFT SHIFT
   - A
   - S
   - D
@@ -24,10 +24,10 @@ layers:
   - L
   - ''''
   - ⏎
-  - ''
+  - LEFT CONTROL
   - Z
   - X
-  - C
+  - {t: C, h: Ctrl}
   - V
   - B
   - N
@@ -35,50 +35,50 @@ layers:
   - ','
   - .
   - /
-  - ''
+  - RIGHT SHIFT
   - {t: Pause Break, h: raise}
   - ''
   - {t: ␣, h: lower}
   - ''
-  - ''
-  - ''
+  - {t: Pause Break, h: raise}
+  - LEFT CONTROL
   lower:
-  - {t: F1, h: Gui}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - End
+  - End
+  - End
+  - End
+  - End
+  - End
   - '7'
   - '8'
   - '9'
-  - '0'
-  - DELETE
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - (
-  - )
-  - '['
-  - ']'
-  - '{'
-  - '}'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - End
+  - End
+  - End
+  - End
+  - End
+  - End
+  - End
+  - End
+  - End
+  - '4'
+  - '5'
+  - '6'
+  - End
+  - End
+  - End
+  - {t: ▽, type: trans}
+  - End
+  - End
+  - End
+  - End
+  - End
+  - '1'
+  - '2'
+  - '3'
+  - '0'
+  - .
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -86,42 +86,42 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
   - End
-  - ↓
+  - End
+  - End
+  - End
+  - End
+  - End
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - (
+  - )
+  - End
+  - End
+  - End
+  - End
+  - End
+  - End
+  - End
+  - End
+  - Page Up
+  - Home
+  - ↑
+  - End
+  - End
+  - End
+  - End
+  - End
+  - End
+  - End
+  - ⌦
+  - INSERT
   - Page Down
-  - Pause Break
-  - Alt
+  - ←
+  - ↓
+  - →
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
