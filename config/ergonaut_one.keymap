@@ -44,10 +44,10 @@
 
         raise_layer {
             bindings = <
-&kp EXCL  &kp AT   &kp HASH  &kp DOLLAR  &kp PERCENT  &kp COLON      &kp LBKT  &kp RBKT    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp END   &kp END  &kp END   &kp END     &kp END      &kp SEMI       &kp END   &kp END     &kp PG_UP       &kp HOME         &kp UP                &kp END
-&kp END   &kp END  &kp END   &kp END     &kp END      &kp AMPERSAND  &kp DEL   &kp INSERT  &kp PG_DN       &kp LEFT         &kp DOWN              &kp RIGHT
-                             &trans      &trans       &trans         &trans    &trans      &trans
+&kp EXCL  &kp AT   &kp HASH  &kp DOLLAR  &kp PERCENT    &kp COLON      &kp LBKT  &kp RBKT    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp END   &kp END  &kp END   &kp END     &kp BACKSLASH  &kp SEMI       &kp END   &kp END     &kp PG_UP       &kp HOME         &kp UP                &kp END
+&kp END   &kp END  &kp END   &kp END     &kp END        &kp AMPERSAND  &kp DEL   &kp INSERT  &kp PG_DN       &kp LEFT         &kp DOWN              &kp RIGHT
+                             &trans      &trans         &trans         &trans    &trans      &trans
             >;
         };
 
