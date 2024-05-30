@@ -37,7 +37,7 @@ layers:
   - /
   - RIGHT SHIFT
   - {t: Pause Break, h: raise}
-  - ''
+  - LEFT ALT
   - {t: ␣, h: lower}
   - ''
   - {t: Pause Break, h: raise}
@@ -52,8 +52,8 @@ layers:
   - '7'
   - '8'
   - '9'
-  - End
-  - End
+  - KP MULTIPLY
+  - KP MINUS
   - DELETE
   - End
   - End
@@ -64,8 +64,8 @@ layers:
   - '4'
   - '5'
   - '6'
-  - End
-  - End
+  - KP EQUAL
+  - KP PLUS
   - End
   - {t: ▽, type: trans}
   - End
@@ -86,12 +86,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - End
-  - End
-  - End
-  - End
-  - End
-  - End
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ':'
   - '['
   - ']'
   - '{'
@@ -103,7 +103,7 @@ layers:
   - End
   - End
   - End
-  - End
+  - ;
   - End
   - End
   - Page Up
@@ -115,7 +115,7 @@ layers:
   - End
   - End
   - End
-  - End
+  - '&'
   - ⌦
   - INSERT
   - Page Down
