@@ -64,7 +64,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - KP EQUAL
+  - '='
   - KP PLUS
   - End
   - {t: ▽, type: trans}
